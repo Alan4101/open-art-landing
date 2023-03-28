@@ -1,3 +1,25 @@
-<header>
-    header
+<header class="header">
+    <div class="container">
+        <div class="wrapper header__wrapper">
+            <div class="header__wrapper-logo">
+                <img src="@img/logo.svg" class="header-logo" alt="logo"/>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="nav-list__item item">
+                        <a class="item-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-list__item item">
+                        <a class="item-link"href="#">Fead</a>
+                    </li>
+                </ul> 
+            </nav>
+            <div class="header__wrapper-search">
+                <input class="search-input" type="search" placeholder="Search"/>
+            </div>
+            @@include('./button-outline.html', {
+                "title": "Connect wallet"
+            })
+        </div>
+    </div>
 </header>

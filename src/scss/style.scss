@@ -1,6 +1,12 @@
+@use "sass:map";
 @import './index';
 
-body{
-    color: #ccc;
+.container{
+    width: 100%;
+    max-width: map.get($container-max-width, xxl);
+    margin: 0 auto;
+    
+    .container-wrapper{
+        padding: 0 15px;
+    }
 }
-

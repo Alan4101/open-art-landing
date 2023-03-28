@@ -1,0 +1,17 @@
+.button{
+    padding: 16px 50px;
+    border-radius: 45px;
+    color: #FFFFFF;
+    font-size: 17px;
+    line-height: 140%;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 17px;
+
+}
+.button-outline{
+    border: 2px solid $buttonBlue;
+    background-color: transparent;
+
+}
